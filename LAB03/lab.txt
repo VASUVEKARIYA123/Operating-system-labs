@@ -1,0 +1,28 @@
+*********
+orphan process : An orphan process is a computer process whose parent process has finished or  terminated, though it remains running itself.
+
+*********
+zombie process : process that has completed execution (via the exit system call) but still has an entry in the process table: it is a process in the "terminated state".
+
+*********
+fork() : creates a new process by duplicating the calling process.
+
+*********
+exec() : replaces the current process image with a new process image.
+
+*********
+wait() : suspends execution of the calling process until a child has terminated.
+
+*********
+exit() : terminates the calling process and all its descendants.
+
+*********
+system() : executes a shell command.
+
+*********
+pipe() : creates a pipe.
+
+*********
+chainning : A process chain is a sequence of processes that are scheduled in the background for an event. 
+Suppose there are three processes, and the first process is the parent process, and it is creating the child process, then this second process creates another process (third process), then the first process becomes the parent of the second one and the second process becomes the parent of the third process. So, a chain of processes is obtained, and that’s called a chain of processes.
+Chain of process
