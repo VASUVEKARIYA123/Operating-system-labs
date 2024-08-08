@@ -33,5 +33,6 @@ int main(){
         if(de->d_name[0] == '.') continue;
         printf("%s\n",de->d_name);
     }
+
     return 0;
 }

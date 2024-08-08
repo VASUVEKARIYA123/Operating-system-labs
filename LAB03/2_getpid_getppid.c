@@ -19,14 +19,9 @@ int main(){
         printf("p : %d\n",getpid());
         printf("pp : %d\n",getppid());
     }
-        
-    }
-    else{
-        printf("this block is executed in parent process only\n");
-        printf("p : %d\n",getpid());
-        printf("pp : %d\n",getppid());
-    }
+
     
+
 
     return 0;
 }
